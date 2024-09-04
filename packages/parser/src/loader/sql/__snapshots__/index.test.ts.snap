@@ -505,6 +505,48 @@ Object {
 }
 `;
 
+exports[`Named query with an inferred handlebar param 1`] = `
+Object {
+  "events": Array [],
+  "queries": Array [
+    Object {
+      "name": "GetUserById",
+      "params": Array [
+        Object {
+          "codeRefs": Object {
+            "used": Array [
+              Object {
+                "a": 66,
+                "b": 71,
+                "col": 39,
+                "line": 3,
+              },
+            ],
+          },
+          "name": "userId",
+          "required": false,
+          "transform": Object {
+            "type": "scalar",
+          },
+        },
+      ],
+      "statement": Object {
+        "body": "SELECT * FROM users WHERE userId = \${userId}",
+        "loc": Object {
+          "a": 29,
+          "b": 72,
+          "col": 2,
+          "line": 3,
+        },
+      },
+      "usedParamSet": Object {
+        "userId": true,
+      },
+    },
+  ],
+}
+`;
+
 exports[`Named query with an inferred param 1`] = `
 Object {
   "events": Array [],
@@ -610,6 +652,54 @@ Object {
       },
       "usedParamSet": Object {
         "customers": true,
+      },
+    },
+  ],
+}
+`;
+
+exports[`Named query with two inferred handlebar params 1`] = `
+Object {
+  "events": Array [],
+  "queries": Array [
+    Object {
+      "name": "GetUserById",
+      "params": Array [
+        Object {
+          "codeRefs": Object {
+            "used": Array [
+              Object {
+                "a": 66,
+                "b": 71,
+                "col": 39,
+                "line": 3,
+              },
+              Object {
+                "a": 90,
+                "b": 95,
+                "col": 63,
+                "line": 3,
+              },
+            ],
+          },
+          "name": "userId",
+          "required": false,
+          "transform": Object {
+            "type": "scalar",
+          },
+        },
+      ],
+      "statement": Object {
+        "body": "SELECT * FROM users WHERE userId = \${userId} or parentId = \${userId}",
+        "loc": Object {
+          "a": 29,
+          "b": 96,
+          "col": 2,
+          "line": 3,
+        },
+      },
+      "usedParamSet": Object {
+        "userId": true,
       },
     },
   ],

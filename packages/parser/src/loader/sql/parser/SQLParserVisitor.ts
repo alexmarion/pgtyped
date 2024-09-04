@@ -3,13 +3,14 @@
 
 import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor.js";
 
-import {InputContext, RangeContext} from "./SQLParser.js";
+import { InputContext } from "./SQLParser.js";
 import { QueryContext } from "./SQLParser.js";
 import { QueryDefContext } from "./SQLParser.js";
 import { IgnoredCommentContext } from "./SQLParser.js";
 import { StatementContext } from "./SQLParser.js";
 import { StatementBodyContext } from "./SQLParser.js";
 import { WordContext } from "./SQLParser.js";
+import { RangeContext } from "./SQLParser.js";
 import { ParamContext } from "./SQLParser.js";
 import { ParamIdContext } from "./SQLParser.js";
 import { NameTagContext } from "./SQLParser.js";

@@ -32,6 +32,22 @@ test('Named query with two inferred params', () => {
   expect(parseTree).toMatchSnapshot();
 });
 
+test('Named query with an inferred handlebar param', () => {
+  const text = `
+  /* @name GetUserById */
+  SELECT * FROM users WHERE userId = \${userId};`;
+  const parseTree = parse(text);
+  expect(parseTree).toMatchSnapshot();
+});
+
+test('Named query with two inferred handlebar params', () => {
+  const text = `
+  /* @name GetUserById */
+  SELECT * FROM users WHERE userId = \${userId} or parentId = \${userId};`;
+  const parseTree = parse(text);
+  expect(parseTree).toMatchSnapshot();
+});
+
 test('Named query with a valid param', () => {
   const text = `
   /*
