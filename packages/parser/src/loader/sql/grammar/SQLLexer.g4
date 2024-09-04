@@ -18,6 +18,8 @@ LINE_COMMENT: '--' ~[\r\n]* '\r'? '\n';
 OPEN_COMMENT: '/*' -> mode(COMMENT);
 SID: ID -> type(ID);
 S_REQUIRED_MARK: '!';
+PARAM_MARK_OPEN: '${';
+PARAM_MARK_CLOSE: '}';
 WORD: [a-zA-Z_0-9]+;
 SPECIAL: [\-+*/<>=~@#%^&|`?(){},.[\]"]+ -> type(WORD);
 DOLLAR: '$' -> type(WORD);

@@ -26,7 +26,7 @@ word: WORD | ID | STRING | S_REQUIRED_MARK | DOLLAR_STRING;
 // required to avoid errors when matching strings like "[1:2]" as params
 range: PARAM_MARK word;
 
-param: PARAM_MARK paramId;
+param: PARAM_MARK paramId | PARAM_MARK_OPEN paramId PARAM_MARK_CLOSE;
 
 paramId: ID S_REQUIRED_MARK?;
 

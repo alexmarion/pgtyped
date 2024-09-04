@@ -1,27 +1,28 @@
 // Generated from src/loader/sql/grammar/SQLParser.g4 by ANTLR 4.9.0-SNAPSHOT
 
 
-import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor.js";
+import { ParseTreeVisitor } from "antlr4ts/tree/ParseTreeVisitor";
 
-import {InputContext, RangeContext} from "./SQLParser.js";
-import { QueryContext } from "./SQLParser.js";
-import { QueryDefContext } from "./SQLParser.js";
-import { IgnoredCommentContext } from "./SQLParser.js";
-import { StatementContext } from "./SQLParser.js";
-import { StatementBodyContext } from "./SQLParser.js";
-import { WordContext } from "./SQLParser.js";
-import { ParamContext } from "./SQLParser.js";
-import { ParamIdContext } from "./SQLParser.js";
-import { NameTagContext } from "./SQLParser.js";
-import { ParamTagContext } from "./SQLParser.js";
-import { ParamTransformContext } from "./SQLParser.js";
-import { TransformRuleContext } from "./SQLParser.js";
-import { SpreadTransformContext } from "./SQLParser.js";
-import { PickTransformContext } from "./SQLParser.js";
-import { SpreadPickTransformContext } from "./SQLParser.js";
-import { KeyContext } from "./SQLParser.js";
-import { QueryNameContext } from "./SQLParser.js";
-import { ParamNameContext } from "./SQLParser.js";
+import { InputContext } from "./SQLParser";
+import { QueryContext } from "./SQLParser";
+import { QueryDefContext } from "./SQLParser";
+import { IgnoredCommentContext } from "./SQLParser";
+import { StatementContext } from "./SQLParser";
+import { StatementBodyContext } from "./SQLParser";
+import { WordContext } from "./SQLParser";
+import { RangeContext } from "./SQLParser";
+import { ParamContext } from "./SQLParser";
+import { ParamIdContext } from "./SQLParser";
+import { NameTagContext } from "./SQLParser";
+import { ParamTagContext } from "./SQLParser";
+import { ParamTransformContext } from "./SQLParser";
+import { TransformRuleContext } from "./SQLParser";
+import { SpreadTransformContext } from "./SQLParser";
+import { PickTransformContext } from "./SQLParser";
+import { SpreadPickTransformContext } from "./SQLParser";
+import { KeyContext } from "./SQLParser";
+import { QueryNameContext } from "./SQLParser";
+import { ParamNameContext } from "./SQLParser";
 
 
 /**
