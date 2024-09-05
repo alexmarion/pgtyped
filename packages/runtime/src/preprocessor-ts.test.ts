@@ -1,4 +1,4 @@
-import { parseTSQuery } from '@pgtyped/pgtyped-curly';
+import { parseTSQuery } from '@pgtyped/parser';
 import { ParameterTransform } from './preprocessor.js';
 import { processTSQueryAST } from './preprocessor-ts.js';
 

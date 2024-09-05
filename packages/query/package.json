@@ -43,5 +43,5 @@
     "@types/chalk": "^2.2.0",
     "@types/debug": "^4.1.4"
   },
-  "gitHead": "76c75dc4cdb2ccdeb64071439e3b1095db849158"
+  "gitHead": "dc4735a235ba7bbcded1b7fee88aea0aec44ccd7"
 }

@@ -1,4 +1,4 @@
-import { SQLQueryIR, parseTSQuery, TSQueryAST } from '@pgtyped/pgtyped-curly';
+import { SQLQueryIR, parseTSQuery, TSQueryAST } from '@pgtyped/parser';
 import { processSQLQueryIR } from './preprocessor-sql.js';
 import { processTSQueryAST } from './preprocessor-ts.js';
 
