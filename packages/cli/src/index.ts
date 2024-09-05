@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { startup } from '@pgtyped/query';
-import { AsyncQueue } from '@pgtyped/wire';
+import { startup } from '@pgtyped-curly/query';
+import { AsyncQueue } from '@pgtyped-curly/wire';
 import chokidar from 'chokidar';
 import nun from 'nunjucks';
 

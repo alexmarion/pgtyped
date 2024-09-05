@@ -1,4 +1,4 @@
-## @pgtyped/query
+## @pgtyped-curly/query
 
 This package provides protocol utilities for PgTyped queries.
 

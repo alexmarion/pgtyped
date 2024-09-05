@@ -1,6 +1,6 @@
 {
-  "name": "@pgtyped/cli",
-  "version": "2.3.2",
+  "name": "@pgtyped-curly/cli",
+  "version": "2.3.1",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -35,9 +35,9 @@
     "pgtyped": "lib/index.js"
   },
   "dependencies": {
-    "@pgtyped/parser": "github:alexmarion/pgtyped",
-    "@pgtyped/query": "^2.3.2",
-    "@pgtyped/wire": "^2.3.2",
+    "@pgtyped-curly/parser": "github:alexmarion/pgtyped",
+    "@pgtyped-curly/query": "^2.3.1",
+    "@pgtyped-curly/wire": "^2.3.1",
     "camel-case": "^5.0.0",
     "chalk": "^4.0.0",
     "chokidar": "^3.3.1",

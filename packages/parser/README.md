@@ -1,4 +1,4 @@
-## @pgtyped/runtime
+## @pgtyped-curly/runtime
 
 This package provides SQL and TS query parsing for pgTyped.
 

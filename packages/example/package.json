@@ -1,6 +1,6 @@
 {
-  "name": "@pgtyped/example",
-  "version": "2.3.2",
+  "name": "@pgtyped-curly/example",
+  "version": "2.3.0",
   "description": "A package demonstrating how pgtyped works.",
   "author": "Adel Salakh",
   "private": true,
@@ -22,8 +22,8 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@pgtyped/cli": "^2.3.2",
-    "@pgtyped/query": "^2.3.2",
+    "@pgtyped-curly/cli": "^2.3.0",
+    "@pgtyped-curly/query": "^2.3.0",
     "expect": "29.7.0",
     "pg": "8.11.5",
     "typescript": "4.9.4"

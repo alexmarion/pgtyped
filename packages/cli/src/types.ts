@@ -7,9 +7,9 @@ import {
   isImport,
   MappableType,
   Type,
-} from '@pgtyped/query';
+} from '@pgtyped-curly/query';
 import os from 'os';
-import { AliasedType, EnumType } from '@pgtyped/query/lib/type.js';
+import { AliasedType, EnumType } from '@pgtyped-curly/query/lib/type.js';
 import path from 'path';
 
 const String: Type = { name: 'string' };
@@ -194,7 +194,7 @@ export function declareImport(
 
   const parts = ['import'];
 
-  if (from !== '@pgtyped/runtime') {
+  if (from !== '@pgtyped-curly/runtime') {
     parts.push('type');
   }
 

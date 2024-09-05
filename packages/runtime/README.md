@@ -1,4 +1,4 @@
-## @pgtyped/runtime
+## @pgtyped-curly/runtime
 
 This package provides the `sql` tagged template.  
 The `sql` tagged template requires a generic parameter: `<TQueryType>`.

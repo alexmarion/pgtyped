@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped/wire",
+  "name": "@pgtyped-curly/wire",
   "version": "2.3.2",
   "type": "module",
   "exports": {
