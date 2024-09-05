@@ -38,7 +38,7 @@
     "watch": "tsc --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@pgtyped-templates/parser": "github:alexmarion/pgtyped",
+    "@pgtyped/parser": "github:alexmarion/pgtyped",
     "chalk": "^4.1.0",
     "debug": "^4.1.1"
   },

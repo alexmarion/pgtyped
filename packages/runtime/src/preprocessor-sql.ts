@@ -1,4 +1,4 @@
-import { assert, SQLQueryIR, TransformType } from '@pgtyped-templates/parser';
+import { assert, SQLQueryIR, TransformType } from '@pgtyped/parser';
 import {
   InterpolatedQuery,
   NestedParameters,

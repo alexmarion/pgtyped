@@ -1,4 +1,4 @@
-import { parseSQLFile, TSQueryAST } from '@pgtyped-templates/parser';
+import { parseSQLFile, TSQueryAST } from '@pgtyped/parser';
 import { IQueryTypes } from '@pgtyped/query/lib/actions.js';
 import { ParameterTransform } from '@pgtyped/runtime';
 import { pascalCase } from 'pascal-case';

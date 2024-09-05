@@ -34,7 +34,7 @@
     "pgtyped": "lib/index.js"
   },
   "dependencies": {
-    "@pgtyped-templates/parser": "github:alexmarion/pgtyped",
+    "@pgtyped/parser": "github:alexmarion/pgtyped",
     "@pgtyped/query": "^2.3.0",
     "@pgtyped/wire": "^2.3.0",
     "camel-case": "^5.0.0",
