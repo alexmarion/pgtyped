@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped/cli",
+  "name": "@pgtyped-tempaltes/cli",
   "version": "2.3.0",
   "type": "module",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adelsz/pgtyped.git"
+    "url": "https://github.com/alexmarion/pgtyped-tempaltes.git"
   },
   "files": [
     "lib"
@@ -20,7 +20,7 @@
   "engines": {
     "node": ">=14.16"
   },
-  "homepage": "https://github.com/adelsz/pgtyped",
+  "homepage": "https://github.com/alexmarion/pgtyped-tempaltes",
   "publishConfig": {
     "access": "public"
   },
@@ -34,9 +34,9 @@
     "pgtyped": "lib/index.js"
   },
   "dependencies": {
-    "@pgtyped/parser": "github:alexmarion/pgtyped",
-    "@pgtyped/query": "github:alexmarion/pgtyped",
-    "@pgtyped/wire": "github:alexmarion/pgtyped",
+    "@pgtyped-templates/parser": "github:alexmarion/pgtyped",
+    "@pgtyped/query": "^2.3.0",
+    "@pgtyped/wire": "^2.3.0",
     "camel-case": "^5.0.0",
     "chalk": "^4.0.0",
     "chokidar": "^3.3.1",

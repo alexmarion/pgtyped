@@ -1,8 +1,8 @@
 {
-  "name": "pgtyped",
+  "name": "pgtyped-templates",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "Adel Salakh",
+  "author": "Alex Marion",
   "license": "MIT",
   "scripts": {
     "clean": "rm -r packages/*/lib",
@@ -10,7 +10,8 @@
     "watch": "lerna run --parallel --stream watch -- --preserveWatchOutput",
     "lint": "tslint --project tsconfig.json -t verbose",
     "lint!": "npm run lint -- --fix",
-    "test": "npm run lint && lerna run --stream test"
+    "test": "npm run lint && lerna run --stream test",
+    "publish": "npm run build && lerna run publish"
   },
   "workspaces": [
     "packages/*"

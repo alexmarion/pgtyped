@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped/runtime",
+  "name": "@pgtyped-tempaltes/runtime",
   "version": "2.3.0",
   "type": "module",
   "exports": {
@@ -24,9 +24,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adelsz/pgtyped.git"
+    "url": "https://github.com/alexmarion/pgtyped-templates.git"
   },
-  "homepage": "https://github.com/adelsz/pgtyped",
+  "homepage": "https://github.com/alexmarion/pgtyped-templates",
   "publishConfig": {
     "access": "public"
   },
