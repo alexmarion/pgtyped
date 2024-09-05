@@ -38,7 +38,7 @@
     "watch": "tsc --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@pgtyped/parser": "github:alexmarion/pgtyped",
+    "@pgtyped-curly/parser": "github:alexmarion/pgtyped-curly",
     "chalk": "^4.1.0",
     "debug": "^4.1.1"
   },
@@ -47,5 +47,5 @@
     "@types/debug": "^4.1.4",
     "esbuild": "^0.19.0"
   },
-  "gitHead": "dc4735a235ba7bbcded1b7fee88aea0aec44ccd7"
+  "gitHead": "76c75dc4cdb2ccdeb64071439e3b1095db849158"
 }

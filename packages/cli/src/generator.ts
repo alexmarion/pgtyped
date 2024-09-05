@@ -5,7 +5,7 @@ import {
   SQLQueryAST,
   SQLQueryIR,
   TSQueryAST,
-} from '@pgtyped/parser';
+} from '@pgtyped-curly/parser';
 
 import { getTypes, TypeSource } from '@pgtyped/query';
 import {
