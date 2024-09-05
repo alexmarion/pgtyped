@@ -13,7 +13,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped.git"
+    "url": "https://github.com/alexmarion/pgtyped.git",
+    "directory": "packages/wire"
   },
   "homepage": "https://github.com/alexmarion/pgtyped",
   "publishConfig": {
@@ -35,5 +36,5 @@
     "@types/debug": "^4.1.7",
     "@types/node": "20.9.5"
   },
-  "gitHead": "4c3dfa59c286a8636bec1c3dc78c5ec1bcee395c"
+  "gitHead": "97083fa85bd09e419e31f31275a707b8ce29400b"
 }
