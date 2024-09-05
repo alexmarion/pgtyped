@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped/parser",
+  "name": "@pgtyped-tempaltes/parser",
   "version": "2.3.0",
   "type": "module",
   "exports": {

@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped/runtime",
+  "name": "@pgtyped-tempaltes/runtime",
   "version": "2.3.0",
   "type": "module",
   "exports": {
