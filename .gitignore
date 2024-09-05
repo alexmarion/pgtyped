@@ -3,9 +3,9 @@ node_modules/*
 
 # Ignore build files
 # Uploading local build files until we're on a newer version of node
-# packages/**/*.js
-# packages/**/*.d.ts
-# packages/**/*.js.map
+packages/**/*.js
+packages/**/*.d.ts
+packages/**/*.js.map
 *.java
 *.interp
 *.tokens
