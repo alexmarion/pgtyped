@@ -1,4 +1,4 @@
-import { sql } from '@pgtyped-templates/runtime';
+import { sql } from '@pgtyped/runtime';
 import {
   IInsertNotificationQuery,
   IInsertNotificationsQuery,

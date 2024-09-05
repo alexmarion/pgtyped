@@ -1,7 +1,7 @@
 /**
  * SASL-helpers for authentication using SASL
  */
-import { cString } from '@pgtyped-templates/wire';
+import { cString } from '@pgtyped/wire';
 import crypto from 'crypto';
 
 export function createInitialSASLResponse(): {

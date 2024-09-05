@@ -1,8 +1,8 @@
-import { AsyncQueue, messages, PreparedObjectType } from '@pgtyped-templates/wire';
+import { AsyncQueue, messages, PreparedObjectType } from '@pgtyped/wire';
 import crypto from 'crypto';
 import debugBase from 'debug';
 import * as tls from 'tls';
-import type { InterpolatedQuery, QueryParameter } from '@pgtyped-templates/runtime';
+import type { InterpolatedQuery, QueryParameter } from '@pgtyped/runtime';
 import {
   checkServerFinalMessage,
   createClientSASLContinueResponse,

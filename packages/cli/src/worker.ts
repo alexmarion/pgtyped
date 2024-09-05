@@ -1,5 +1,5 @@
-import { startup } from '@pgtyped-templates/query';
-import { AsyncQueue } from '@pgtyped-templates/wire';
+import { startup } from '@pgtyped/query';
+import { AsyncQueue } from '@pgtyped/wire';
 import fs from 'fs-extra';
 import nun from 'nunjucks';
 import path from 'path';
