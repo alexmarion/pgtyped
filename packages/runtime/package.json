@@ -24,9 +24,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped-templates.git"
+    "url": "https://github.com/alexmarion/pgtyped.git"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped-templates",
+  "homepage": "https://github.com/alexmarion/pgtyped",
   "publishConfig": {
     "access": "public"
   },
