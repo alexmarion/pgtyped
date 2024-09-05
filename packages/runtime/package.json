@@ -46,5 +46,6 @@
     "@types/chalk": "^2.2.0",
     "@types/debug": "^4.1.4",
     "esbuild": "^0.19.0"
-  }
+  },
+  "gitHead": "dc4735a235ba7bbcded1b7fee88aea0aec44ccd7"
 }
