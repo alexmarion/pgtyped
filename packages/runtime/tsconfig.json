@@ -1,8 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "module": "Node16",
     "outDir": "./lib/",
-    "rootDir": "./src/",
+    "rootDir": "./src/"
   },
   "exclude": ["lib", "**/*.test.ts", "jest.config.ts"]
 }
