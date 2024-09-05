@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped-tempaltes/query",
+  "name": "@pgtyped/query",
   "version": "2.3.0",
   "type": "module",
   "exports": {
@@ -21,9 +21,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped-tempaltes.git"
+    "url": "https://github.com/alexmarion/pgtyped.git"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped-tempaltes",
+  "homepage": "https://github.com/alexmarion/pgtyped",
   "publishConfig": {
     "access": "public"
   },

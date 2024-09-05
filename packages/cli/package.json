@@ -1,5 +1,5 @@
 {
-  "name": "@pgtyped-tempaltes/cli",
+  "name": "@pgtyped/cli",
   "version": "2.3.0",
   "type": "module",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped-tempaltes.git"
+    "url": "https://github.com/alexmarion/pgtyped.git"
   },
   "files": [
     "lib"
@@ -20,7 +20,7 @@
   "engines": {
     "node": ">=14.16"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped-tempaltes",
+  "homepage": "https://github.com/alexmarion/pgtyped",
   "publishConfig": {
     "access": "public"
   },
