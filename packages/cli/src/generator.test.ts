@@ -1,6 +1,6 @@
 import { parseSQLFile, TSQueryAST } from '@pgtyped-templates/parser';
-import { IQueryTypes } from '@pgtyped/query/lib/actions.js';
-import { ParameterTransform } from '@pgtyped/runtime';
+import { IQueryTypes } from '@pgtyped-templates/query/lib/actions.js';
+import { ParameterTransform } from '@pgtyped-templates/runtime';
 import { pascalCase } from 'pascal-case';
 import { ParsedConfig } from './config.js';
 import {
@@ -78,7 +78,7 @@ describe('query-to-interface translation', () => {
         types,
         partialConfig,
       );
-      const expectedTypes = `import { PreparedQuery } from '@pgtyped/runtime';
+      const expectedTypes = `import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 export type PayloadType = 'dynamite' | 'message';
 
@@ -313,7 +313,7 @@ export interface IDeleteUsersQuery {
         types,
         { camelCaseColumnNames: true, hungarianNotation: true } as ParsedConfig,
       );
-      const expectedTypes = `import { PreparedQuery } from '@pgtyped/runtime';
+      const expectedTypes = `import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 export type PayloadType = 'dynamite' | 'message';
 
@@ -392,7 +392,7 @@ export interface IGetNotificationsQuery {
         types,
         { camelCaseColumnNames: true, hungarianNotation: true } as ParsedConfig,
       );
-      const expectedTypes = `import { PreparedQuery } from '@pgtyped/runtime';
+      const expectedTypes = `import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 export type PayloadType = 'dynamite' | 'message';
 
@@ -467,7 +467,7 @@ export interface IGetNotificationsQuery {
         types,
         partialConfig,
       );
-      const expectedTypes = `import { PreparedQuery } from '@pgtyped/runtime';
+      const expectedTypes = `import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 export type PayloadType = 'dynamite' | 'message';
 
@@ -542,7 +542,7 @@ export interface IGetNotificationsQuery {
         types,
         partialConfig,
       );
-      const expectedTypes = `import { PreparedQuery } from '@pgtyped/runtime';
+      const expectedTypes = `import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 export type PayloadType = 'dynamite' | 'message';
 

@@ -7,9 +7,9 @@ import {
   isImport,
   MappableType,
   Type,
-} from '@pgtyped/query';
+} from '@pgtyped-templates/query';
 import os from 'os';
-import { AliasedType, EnumType } from '@pgtyped/query/lib/type.js';
+import { AliasedType, EnumType } from '@pgtyped-templates/query/lib/type.js';
 import path from 'path';
 
 const String: Type = { name: 'string' };

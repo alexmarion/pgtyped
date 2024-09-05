@@ -1,4 +1,4 @@
-import { InterpolatedQuery } from '@pgtyped/runtime';
+import { InterpolatedQuery } from '@pgtyped-templates/runtime';
 import { IParseError, IQueryTypes } from './actions.js';
 
 export { getTypes, startup, IParseError, IQueryTypes } from './actions.js';

@@ -1,5 +1,5 @@
 /** Types generated for queries found in "src/comments/comments.sql" */
-import { PreparedQuery } from '@pgtyped/runtime';
+import { PreparedQuery } from '@pgtyped-templates/runtime';
 
 /** 'GetAllComments' parameters type */
 export interface IGetAllCommentsParams {
