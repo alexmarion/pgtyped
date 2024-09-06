@@ -505,7 +505,7 @@ Object {
 }
 `;
 
-exports[`Named query with an inferred handlebar param 1`] = `
+exports[`Named query with an inferred curly param 1`] = `
 Object {
   "events": Array [],
   "queries": Array [
@@ -658,7 +658,7 @@ Object {
 }
 `;
 
-exports[`Named query with two inferred handlebar params 1`] = `
+exports[`Named query with two inferred curly params 1`] = `
 Object {
   "events": Array [],
   "queries": Array [

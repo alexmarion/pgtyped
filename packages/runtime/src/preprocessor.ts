@@ -71,8 +71,20 @@ export function replaceIntervals(
   let offset = 0;
   let result = '';
   for (const interval of intervals) {
-    const a = str.slice(0, interval.a + offset);
-    const c = str.slice(interval.b + offset + 1, str.length);
+    // Account for variables with different formats. Accepted formats are :var and ${var
+    const intervalCharacter = str[interval.a + offset];
+    let variableType;
+    let a;
+    let c;
+    if(intervalCharacter === '{') {
+      a = str.slice(0, interval.a + offset - 1);
+      c = str.slice(interval.b + offset + 2, str.length);
+    } else if(intervalCharacter === ':') {
+      a = str.slice(0, interval.a + offset);
+      c = str.slice(interval.b + offset + 1, str.length);
+    } else {
+      throw new Error(`Unrecognized variable type: ${intervalCharacter}`);
+    }
     result = a + interval.sub + c;
     offset += result.length - str.length;
     str = result;
