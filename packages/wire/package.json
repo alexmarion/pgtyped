@@ -27,7 +27,8 @@
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "build": "tsc",
     "check": "tsc --noEmit",
-    "watch": "tsc --watch --preserveWatchOutput"
+    "watch": "tsc --watch --preserveWatchOutput",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "debug": "^4.1.1"

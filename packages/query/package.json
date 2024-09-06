@@ -32,11 +32,12 @@
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "build": "tsc",
     "check": "tsc --noEmit",
-    "watch": "tsc --watch --preserveWatchOutput"
+    "watch": "tsc --watch --preserveWatchOutput",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
-    "@pgtyped-curly/runtime": "file:../runtime",
-    "@pgtyped-curly/wire": "file:../wire",
+    "@pgtyped-curly/runtime": "^2.3.1",
+    "@pgtyped-curly/wire": "^2.3.1",
     "chalk": "^4.1.0",
     "debug": "^4.1.1"
   },

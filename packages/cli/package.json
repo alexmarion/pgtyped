@@ -29,15 +29,16 @@
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "build": "tsc",
     "check": "tsc --noEmit",
-    "watch": "tsc --watch --preserveWatchOutput"
+    "watch": "tsc --watch --preserveWatchOutput",
+    "publish": "npm publish --access public"
   },
   "bin": {
     "pgtyped": "lib/index.js"
   },
   "dependencies": {
-    "@pgtyped-curly/parser": "file:../parser",
-    "@pgtyped-curly/query": "file:../query",
-    "@pgtyped-curly/wire": "file:../wire",
+    "@pgtyped-curly/parser": "^2.3.1",
+    "@pgtyped-curly/query": "^2.3.1",
+    "@pgtyped-curly/wire": "^2.3.1",
     "camel-case": "^5.0.0",
     "chalk": "^4.0.0",
     "chokidar": "^3.3.1",
