@@ -13,10 +13,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped.git",
+    "url": "https://github.com/alexmarion/pgtyped-curly.git",
     "directory": "packages/wire"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped",
+  "homepage": "https://github.com/alexmarion/pgtyped-curly",
   "publishConfig": {
     "access": "public"
   },

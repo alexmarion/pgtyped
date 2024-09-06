@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped.git",
+    "url": "https://github.com/alexmarion/pgtyped-curly.git",
     "directory": "packages/cli"
   },
   "files": [
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">=14.16"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped",
+  "homepage": "https://github.com/alexmarion/pgtyped-curly",
   "publishConfig": {
     "access": "public"
   },
@@ -35,9 +35,9 @@
     "pgtyped": "lib/index.js"
   },
   "dependencies": {
-    "@pgtyped-curly/parser": "github:alexmarion/pgtyped",
-    "@pgtyped-curly/query": "^2.3.1",
-    "@pgtyped-curly/wire": "^2.3.1",
+    "@pgtyped-curly/parser": "file:../parser",
+    "@pgtyped-curly/query": "file:../query",
+    "@pgtyped-curly/wire": "file:../wire",
     "camel-case": "^5.0.0",
     "chalk": "^4.0.0",
     "chokidar": "^3.3.1",

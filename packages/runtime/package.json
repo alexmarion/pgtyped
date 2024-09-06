@@ -24,10 +24,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmarion/pgtyped.git",
+    "url": "https://github.com/alexmarion/pgtyped-curly.git",
     "directory": "packages/runtime"
   },
-  "homepage": "https://github.com/alexmarion/pgtyped",
+  "homepage": "https://github.com/alexmarion/pgtyped-curly",
   "publishConfig": {
     "access": "public"
   },
@@ -39,7 +39,7 @@
     "watch": "tsc --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@pgtyped-curly/parser": "github:alexmarion/pgtyped",
+    "@pgtyped-curly/parser": "file:../parser",
     "chalk": "^4.1.0",
     "debug": "^4.1.1"
   },

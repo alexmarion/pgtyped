@@ -22,8 +22,8 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@pgtyped-curly/cli": "^2.3.0",
-    "@pgtyped-curly/query": "^2.3.0",
+    "@pgtyped-curly/cli": "file:../cli",
+    "@pgtyped-curly/query": "file:../query",
     "expect": "29.7.0",
     "pg": "8.11.5",
     "typescript": "4.9.4"
