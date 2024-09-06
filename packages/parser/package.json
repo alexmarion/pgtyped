@@ -45,5 +45,5 @@
     "@types/debug": "^4.1.4",
     "antlr4ts-cli": "0.5.0-alpha.4"
   },
-  "gitHead": "97083fa85bd09e419e31f31275a707b8ce29400b"
+  "gitHead": "116b8ba2336b0a5585255aebd68e2596fbab4306"
 }
