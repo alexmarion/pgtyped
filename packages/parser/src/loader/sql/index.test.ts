@@ -48,41 +48,6 @@ test('Named query with two inferred curly params', () => {
   expect(parseTree).toMatchSnapshot();
 });
 
-test('something', () => {
-  const text = `
-  /* @name paymentMethodsGet */
-  SELECT pm.payment_method_id,
-    pm.payment_method_uuid,
-    pm.customer_id,
-    pm.tokens,
-    CASE WHEN \${get_metadata}::BOOLEAN THEN pm.payment_method_metadata ELSE '{}' END AS payment_method_metadata,
-    pm.processors,
-    pm.processor_id,
-    pm.name,
-    pm.payment_method_first_name,
-    pm.payment_method_last_name,
-    pm.payment_type,
-    pm.visual_cue,
-    pm.expire_month,
-    pm.expire_year,
-    pm.zip,
-    pm.zip IS NULL AS zip_required,
-    pm.verified,
-    pm.is_single_use,
-    pm.payment_method_label,
-    pp.gateway
-  FROM payment_methods pm
-  LEFT JOIN processors pp USING(processor_id)
-  WHERE pm.customer_id = \${customer_id}
-    AND CASE
-      WHEN \${payment_method_id}::BIGINT IS NOT NULL THEN pm.payment_method_id = \${payment_method_id}::BIGINT
-      WHEN \${payment_method_uuid}::TEXT IS NOT NULL THEN pm.payment_method_uuid = \${payment_method_uuid}::TEXT
-    END;
-  `;
-  const parseTree = parse(text);
-  console.log('PARSE TREEE', JSON.stringify(parseTree, null, 2));
-});
-
 test('Named query with a valid param', () => {
   const text = `
   /*
